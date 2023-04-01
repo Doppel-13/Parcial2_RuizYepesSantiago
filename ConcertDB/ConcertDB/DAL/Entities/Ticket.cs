@@ -2,8 +2,9 @@
 
 namespace ConcertDB.DAL.Entities
 {
-    public class Tickets
+    public class Ticket
     {
+        [Display(Name = "Entradas")]
         [Key]
         [Required]
         public Guid Id { get; set; }
