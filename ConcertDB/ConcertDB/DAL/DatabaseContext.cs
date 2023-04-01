@@ -10,6 +10,6 @@ namespace ConcertDB.DAL
             
         }
 
-        public DbSet<Ticket> Ticket { get; set; } 
+        public DbSet<Ticket> Tickets { get; set; } 
     }
 }
