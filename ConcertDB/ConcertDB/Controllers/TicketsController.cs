@@ -69,6 +69,7 @@ namespace ConcertDB.Controllers
             return View(ticket);
         }
 
+
         // GET: Tickets/Edit/5
         public async Task<IActionResult> Edit(Guid? id)
         {
